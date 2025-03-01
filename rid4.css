@@ -1,0 +1,32 @@
+.c1{
+    width: 400px;
+    height: 300px;
+    border: 3px solid red;
+    background-color: aquamarine;
+}
+.c2{
+    width: 400px;
+    height: 300px;
+    border: 3px solid rgb(132, 222, 47);
+    /* background-color: aquamarine; */
+    background-image: url(box10_image.jpg), url(box6_image.jpg); 
+    /* background-size: 600px; */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-image: repeating-linear-gradient(box5_image.jpg); */
+}
+.c3{
+    
+        width: 400px;
+        height: 300px;
+        border: 3px solid #0339;
+        background-color: aquamarine;
+        background-image: url(box8_image.jpg);
+        background-size: cover;
+        
+    
+    }
+    #d1{
+        background-color: black;
+        color: blue;
+    }
