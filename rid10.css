@@ -1,0 +1,31 @@
+.parents{
+    width: 95%;
+    height: 20vh;
+    border: 5px solid red;
+    display: flex;
+
+justify-content: space-evenly;
+align-items: center;
+font: bold;
+flex-wrap: wrap;
+
+
+
+}
+
+.child{
+    width: 90px;
+height: 40px;
+border: 1px solid green;
+font-size: 20px;
+font-weight: 100;
+background-color: aqua;
+
+/* border-radius: 50% 50% 50% 50%; */
+
+
+
+}
+.child1{
+    font-size: larger;
+}
