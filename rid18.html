@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="rid18.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="c1">
+
+    <form >
+        <label class="number1" > Number1</label>
+        <input id="d1" type="text"><br><br>
+        <label class="number2" > Number2</label>
+        <input id="d2" type="text"><br><br>
+       
+        <button  class="add" type="button" onclick="add()"><i class="fa-solid fa-plus"></i> </button>
+        <button class="sub" type="button" onclick="sub()"><i class="fa-solid fa-minus"></i></button> </button>
+        <button class="multiply" type="button" onclick="multiply()"><i class="fa-solid fa-xmark"></i></i></button> </button>
+        <button  class="divide" type="button" onclick="divide()"><i class="fa-solid fa-divide"></i></i> </button>
+        <br>
+        <br>
+
+        <label class="result">Result</label>
+        <input id="d3" type="text"><br><br>
+
+    </form>
+</div>
+
+<script>
+    function add(){
+        let a=document.getElementById("d1").value
+        console.log(typeof(a))
+        let b=document.getElementById("d2").value
+        console.log(typeof(b))
+        let sum=parseInt(a)+parseInt(b)
+        document.getElementById("d3").value=sum
+        
+        //      document.getElementById("d1").value=""
+        //     document.getElementById("d2").value="" 
+
+
+    }
+    function sub(){
+            let n=document.getElementById("d1").value
+            let m=document.getElementById("d2").value
+            let sub=parseInt(n)-parseInt(m)
+            document.getElementById("d3").value=sub
+            //  document.getElementById("d1").value=""
+            // document.getElementById("d2").value=""
+        }
+        function multiply(){
+            let n=document.getElementById("d1").value
+            let m=document.getElementById("d2").value
+            let sub=parseInt(n)*parseInt(m)
+            document.getElementById("d3").value=multiply
+            //  document.getElementById("d1").value=""
+            // document.getElementById("d2").value=""
+        }
+
+
+</script>
+
+    <!-- <h1>...</h1>
+    <h2>...</h2>
+    <script>
+        let a=prompt("Enter the number-1:  ")
+        let b=prompt("Enter the number-2:  ")
+
+        let glass=a+b
+      
+        console.warn(typeof(a))
+        console.warn(typeof(b))
+
+
+        let n=parseInt(a)
+        let m=parseInt(b)
+
+
+        console.warn(typeof(n))
+        console.warn(typeof(m))
+
+
+        let sum=n+m
+
+        console.log(glass)
+
+        document.querySelector("h1").innerHTML="string sum="+glass
+        document.querySelector("h2").innerHTML="number sum="+sum
+    </script> -->
+    
+</body>
+</html>
