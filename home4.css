@@ -1,0 +1,45 @@
+.body{
+    background-image: url(background_img.jpg);
+    background-size: cover;
+    margin-left: 500px;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+.signUp{
+    width: 300px;
+    height: 430px;
+    border: 2px solid blue;
+    background-color: #ede9e9;
+    border-radius: 10px;
+    position: relative;
+}
+h1{
+text-align: center;
+}
+.c1{
+    padding-left: 15px;
+
+}
+.button{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    border-radius: 10px;
+    
+    color: #efe8e8;
+    
+    margin-left: 100px;
+    
+}
+p{
+    /* margin-left: 15px; */
+    text-align: center;
+}
+#username{
+    width: 250px;
+    height: 25px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+}

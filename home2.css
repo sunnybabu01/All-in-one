@@ -1,0 +1,78 @@
+#c1{
+    background-color: black;
+    color: antiquewhite;
+    text-align: left;
+}
+#c2{
+    text-align: center;
+    background-color: blue;
+    color: red;
+}
+#c3{
+    text-align: right;
+    background-color: chartreuse;
+    color: brown;
+}
+#c4{
+    text-decoration: underline;
+    background-color: blueviolet;
+    color: red;
+
+}
+#c5{
+    text-decoration: line-through;
+    background-color: rgba(202, 55, 243, 0.796);
+    color: black;
+
+}
+#c6{
+    text-decoration: overline;
+    background-color: coral;
+    color: black;
+}
+#c7{
+text-transform: uppercase;
+color: blue;
+background-color: #21e268;
+}
+#c8{
+text-transform: lowercase;
+background-color: green;
+color: red;
+}
+#c9{
+text-transform: capitalize;
+background-color: aqua;
+color: black;
+}
+#c10{
+    background-color: #21e268;
+    color: red;
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
+#c11{
+    text-indent: 40px;
+    letter-spacing: 40px;
+    background-color: black;
+    color: aliceblue;
+}
+#c12{
+    line-height: 20px;
+    word-spacing: 20px;
+    white-space: 20px;
+    background-color: gray;
+    color: blue;
+}
+#c13{
+    word-spacing: 0cqmax;
+    background-color: black;
+    color: white;
+}
+#c14{
+text-emphasis: triangle blue;
+background-color: antiquewhite;
+color: rgba(0, 0, 0, 0.952);
+}
+body{
+    background-color: black;
+}

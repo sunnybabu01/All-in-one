@@ -1,0 +1,19 @@
+
+.first{
+    width: 500px;
+    height: 380px;
+    
+    background-image: url("box6_image.jpg");
+    /* align-items: center; */
+    /* border-top-left-radius: 2px; */
+    /* overflow: auto; */
+    /* display: flex; */
+    border: 2px solid red;
+    opacity: 1;
+    
+    
+}
+.second{
+    /* text-align: center; */
+    color: aliceblue;
+}
